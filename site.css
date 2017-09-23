@@ -42,10 +42,15 @@ p {
 	background-color: #000;
 	color: #F2FFFC;
 	clear: both;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
 }
 
 main a {
 	color: #851944;
+	padding-bottom: 80px;
 }
 
 .navegacao-site a {
@@ -136,9 +141,20 @@ main {
 	width: 85%;
 }
 
-.minha-foto, .navegacao-site {
-	float: right;
+.minha-foto {
+	position:  absolute;
+	top: 0;
+	right: 0;
+	box-sizing: border-box;
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
+}
+
+.navegacao-site {
+	position: absolute;
 	width: 15%;
+	top: 310px;
+	right: 0;
 	box-sizing: border-box;
 	border-left: 10px solid black;
 	border-bottom: 10px solid black;
